@@ -21,15 +21,26 @@ class newProjectTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testAddition(){
+        let num1 = 1
+        let num2 = 3
+        
+        if num1 + num2 == 4{
+            XCTAssert(true)
+        }else{
+            XCTAssert(false)
+        }
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func testSubtraction(){
+        let num1 = 10
+        let num2 = 5
+        
+        if num1 - num2 != 5{
+            XCTAssert(false)
+        }else{
+            XCTAssert(true)
         }
     }
     
