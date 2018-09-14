@@ -23,7 +23,7 @@ class newProjectTests: XCTestCase {
     
     func testAddition(){
         let num1 = 2
-        let num2 = 3
+        let num2 = 2
         
         if num1 + num2 == 4{
             XCTAssert(true)
